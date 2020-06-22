@@ -15,24 +15,22 @@ export default class Sidebar extends Component {
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
-                  <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>
-                  <li><a href="#about" data-nav-section="about">About</a></li>
-                  {/*<li><a href="#" data-nav-section="projects">Projects</a></li>
-                  <li><a href="#" data-nav-section="blog">Blog</a></li>*/}
-                  <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li>
+                  <li className="active"><a href="#home" data-nav-section="home"><i className="icon-home" /> Introduction</a></li>
+                  <li><a href="#about" data-nav-section="about"><i className="icon-user" /> About</a></li>
+                  <li><a href="#about" data-nav-section="about"><i className="icon-git" /> Projects</a></li>
+                  <li><a href="#timeline" data-nav-section="timeline" ><i className="icon-clipboard3" /> Timeline </a></li>
                 </ul>
+
               </div>
             </nav>
-            <nav id="colorlib-main-menu">
-              <ul>
-                <li>LinkedIn <a href="https://www.linkedin.com/in/dbarochiya/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" />  </a></li>
-                <li>Github <a href="https://github.com/dbarochiya" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i>  </a></li>
-              </ul>
-            </nav>
+
             <div className="colorlib-footer">
+
+              <a href="https://www.linkedin.com/in/dbarochiya/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2"/> </a>
+              <a href="https://www.linkedin.com/in/dbarochiya/" target="_blank" rel="noopener noreferrer"><i className="icon-github" /> </a>
+
               <p><small>
-                  Made with <i className="icon-heart" aria-hidden="true" /> and <i className="icon-beer" aria-hidden="true"></i><br></br>
-                  Thanks <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a> for inspiration
+                  Thanks <a href="https://dbarochiya.github.io/me/" target="_blank" rel="noopener noreferrer">Dhruv</a> for inspiration
               </small></p>
 
             </div>
