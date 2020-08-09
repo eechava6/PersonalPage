@@ -13,10 +13,14 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">About me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                        <p>I am Esteban!</p>
+                        <p>I'm a Computer Science Engineer graduted in 2020 from EAFIT, I'm passionate about technology and
+                            how to use it to improve improve everyone's live, I consider myself
+                            as a curious and perceptive guy trying to do something big with my work.
+                            I try to keep up with trends in cross-cutting areas such as science,
+                            technology, finance, economics, gastronomy.</p>
                     </div>
                 </div>
-                    <p><a className="btn btn-primary btn-learn" href="" target="_blank" rel="noopener noreferrer">View CV<i className="icon-download4" /></a></p>
+                    <p><a className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1BpNF56PyvCZsFiLzOctMc6N4HNpmOfKY/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV<i className="icon-download4" /></a></p>
 
                 </div>
             </div>
@@ -27,80 +31,53 @@ export default class About extends Component {
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">Here are some of my expertise</h2>
+                <span className="heading-meta">What do I know?</span>
+                <h2 className="colorlib-heading">My main abilities are:</h2>
             </div>
             </div>
             <div className="row row-pt-md">
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-1">
-                <span className="icon">
-                    <i className="icon-bulb" />
-                </span>
-                <div className="desc">
-                    <h3>Web Development </h3>
-                    <p>I have experience building websites and chrome extentions using JavaScript,React,HTML,CSS</p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-3">
-                <span className="icon">
-                    <i className="icon-phone3" />
-                </span>
-                <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
-                    <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA</p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-md-3 text-center animate-box">
                 <div className="services color-5">
-                <span className="icon">
-                    <i className="icon-data" />
-                </span>
-                <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>I am pursuing my internship with DevOps team at Juniper and working with tools like Jenkins, Docker, K8s</p>
-                </div>
+                    Microservices
                 </div>
             </div>
-            {/*
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-2">
-                <span className="icon">
-                    <i className="icon-data" />
-                </span>
-                <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>Jenkins , Kubernetes , Docker </p>
-                </div>
+            <div className="col-md-3 text-center animate-box">
+                <div className="services color-5">
+                    Data Structures & Algorithms
                 </div>
             </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-4">
-                <span className="icon">
-                    <i className="icon-layers2" />
-                </span>
-                <div className="desc">
-                    <h3>Graphic Design</h3>
-                    <p>My friend knows .. P</p>
-                </div>
+            <div className="col-md-3 text-center animate-box">
+                <div className="services color-5">
+                    Dev Ops
                 </div>
             </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-6">
-                <span className="icon">
-                    <i className="icon-phone3" />
-                </span>
-                <div className="desc">
-                    <h3>Digital Marketing</h3>
-                    <p>I use Instagram eight hours a day :) </p>
+                <div className="col-md-3 text-center animate-box">
+                    <div className="services color-5">
+                        Architecture design
+                    </div>
                 </div>
+            <div className="col-md-3 text-center animate-box">
+                <div className="services color-5">
+                    Communication
                 </div>
             </div>
-            */}
+                <div className="col-md-3 text-center animate-box">
+                    <div className="services color-5">
+                        Cloud Computing
+                    </div>
+                </div>
+                <div className="col-md-3 text-center animate-box">
+                    <div className="services color-5">
+                        Research
+                    </div>
+                </div>
+                <div className="col-md-3 text-center animate-box">
+                    <div className="services color-5">
+                        Team work
+                    </div>
+                </div>
             </div>
+
         </div>
         </section>
       </div>

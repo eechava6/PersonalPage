@@ -15,10 +15,9 @@ export default class Sidebar extends Component {
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
-                  <li className="active"><a href="#home" data-nav-section="home"><i className="icon-home" /> Introduction</a></li>
                   <li><a href="#about" data-nav-section="about"><i className="icon-user" /> About</a></li>
                   <li><a href="#about" data-nav-section="about"><i className="icon-git" /> Projects</a></li>
-                  <li><a href="#timeline" data-nav-section="timeline" ><i className="icon-clipboard3" /> Timeline </a></li>
+                  <li><a href="#timeline" data-nav-section="timeline" ><i className="icon-clipboard3" /> Experience </a></li>
                 </ul>
 
               </div>
@@ -26,11 +25,11 @@ export default class Sidebar extends Component {
 
             <div className="colorlib-footer">
 
-              <a href="https://www.linkedin.com/in/dbarochiya/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2"/> </a>
-              <a href="https://www.linkedin.com/in/dbarochiya/" target="_blank" rel="noopener noreferrer"><i className="icon-github" /> </a>
+              <a href="https://www.linkedin.com/in/esteban-echavarr%C3%ADa-collazos-023406167/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2"/> </a>
+              <a href="https://www.github.com/eechava6" target="_blank" rel="noopener noreferrer"><i className="icon-github" /> </a>
 
               <p><small>
-                  Thanks <a href="https://dbarochiya.github.io/me/" target="_blank" rel="noopener noreferrer">Dhruv</a> for inspiration
+                  Thanks for your time!
               </small></p>
 
             </div>
