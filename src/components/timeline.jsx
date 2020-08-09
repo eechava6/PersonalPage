@@ -17,8 +17,11 @@ export default class Timeline extends Component {
               <div className="col-md-12">
                 <div className="timeline-centered">
                   <TimelineItem role="Microservices / NodeJs Developer" company="Talenta365" date ="Mar 2020-present"/>
+                  <TimelineItem role="Bachelor in Computer Science" company="EAFIT" date ="Jul 2020" color="4"/>
                   <TimelineItem role="Internship – Innovation Architecture" company="Bancolombia" date ="Apr 2019- Jan 2020"/>
+                  <TimelineItem role="Architecting on AWS - Cloud practitioner essentials" company="AWS" date ="Nov 2019" color="4"/>
                   <TimelineItem role="Jr. Research Assistant" company="EAFIT" date ="Jul 2018 - Jul 2019"/>
+                  <TimelineItem role="Big data specialization 3/5 courses" company="Coursera" date ="Dec 2018" color="4"/>
                   <TimelineItem role="Full stack developer" company="Freelance" date ="Jul 2017 - Jul 2018"/>
                 </div>
               </div>

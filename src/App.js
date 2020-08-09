@@ -5,7 +5,6 @@ import Sidebar from './components/sidebar'
 import About from './components/about'
 import Timeline from './components/timeline'
 import Abilities from "./components/abilities";
-import Projects from "./components/projects";
 class App extends Component {
   render() {
     return (

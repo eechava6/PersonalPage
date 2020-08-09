@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import AbilitiesItem from "./abilitiesItem";
+
 export default class About extends Component {
   render() {
     return (

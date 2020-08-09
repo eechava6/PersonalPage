@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 
 export default class TimelineItem extends Component {
-	render() { return (
 
-		<article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+	render() {
+		const color = `timeline-icon color-${this.props.color | 1}` ;
+		return ( <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 			<div className="timeline-entry-inner">
-				<div className="timeline-icon color-1">
+				<div className={color}>
 					<i className="icon-arrow-right3" />
 				</div>
 				<div className="timeline-label">
