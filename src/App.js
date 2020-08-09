@@ -4,16 +4,18 @@ import './App.css';
 import Sidebar from './components/sidebar'
 import About from './components/about'
 import Timeline from './components/timeline'
-
+import Abilities from "./components/abilities";
+import Projects from "./components/projects";
 class App extends Component {
   render() {
     return (
         <div id="colorlib-page">
           <div id="container-wrap">
-            <Sidebar></Sidebar>
+            <Sidebar/>
             <div id="colorlib-main">
-              <About></About>
-              <Timeline></Timeline>
+              <About/>
+              <Abilities/>
+              <Timeline/>
             </div>
           </div>
         </div>
