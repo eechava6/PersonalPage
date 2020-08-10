@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 
 import './App.css';
@@ -6,13 +7,13 @@ import About from './components/about'
 import Timeline from './components/timeline'
 import Abilities from "./components/abilities";
 class App extends Component {
+
   render() {
     return (
         <div id="colorlib-page">
           <div id="container-wrap">
             <Sidebar/>
-            <div id="colorlib-main">
-              <About/>
+            <div id="colorlib-main">              <About/>
               <Abilities/>
               <Timeline/>
             </div>

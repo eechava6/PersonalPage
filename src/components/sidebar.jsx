@@ -17,7 +17,7 @@ export default class Sidebar extends Component {
                 <ul>
                   <li><a href="#about" data-nav-section="about"><i className="icon-user" /> About</a></li>
                   <li><a href="#about" data-nav-section="about"><i className="icon-git" /> Projects</a></li>
-                  <li><a href="#timeline" data-nav-section="timeline" ><i className="icon-clipboard3" /> Experience </a></li>
+                  <li><a href="#timeline" data-nav-section="timeline" ><i className="icon-clipboard3" /> Timeline </a></li>
                 </ul>
 
               </div>

@@ -19,7 +19,9 @@ export default class About extends Component {
                             technology, finance, economics, gastronomy.</p>
                     </div>
                 </div>
-                    <p><a className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1BpNF56PyvCZsFiLzOctMc6N4HNpmOfKY/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV<i className="icon-download4" /></a></p>
+                    <p><a className="col-md-3 btn btn-primary btn-learn" href="https://drive.google.com/file/d/1BpNF56PyvCZsFiLzOctMc6N4HNpmOfKY/view?usp=sharing" target="_blank" rel="noopener noreferrer">Check out my Resume! <i className="icon-download4" /></a></p>
+                    <p><a className="col-md-3 btn btn-primary btn-learn" href="https://drive.google.com/file/d/1BpNF56PyvCZsFiLzOctMc6N4HNpmOfKY/view?usp=sharing" target="_blank" rel="noopener noreferrer">Check out my GitHub! <i className="icon-github" /></a></p>
+                    <p><a className="col-md-3 btn btn-primary btn-learn" href="https://drive.google.com/file/d/1BpNF56PyvCZsFiLzOctMc6N4HNpmOfKY/view?usp=sharing" target="_blank" rel="noopener noreferrer">Check out my LinkedIn! <i className="icon-linkedin2" /></a></p>
 
                 </div>
             </div>
