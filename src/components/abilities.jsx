@@ -23,7 +23,7 @@ export default class Abilities extends Component {
 					<AbilitiesItem text="Cloud Computing"/>
 					<AbilitiesItem text="Nodejs"/>
 					<AbilitiesItem text="AWS"/>
-					<AbilitiesItem text="Research"/>
+					<AbilitiesItem text="Serverless"/>
 					<AbilitiesItem text="Python"/>
 					<AbilitiesItem text="Team work"/>
 					<AbilitiesItem text="Git - Github"/>
